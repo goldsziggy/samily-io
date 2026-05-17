@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*.swo
+node_modules/
+.vscode/
+.idea/
+
+# Local logo backup pre-trim (kept locally, not in repo)
+assets/brand/*.original.png
