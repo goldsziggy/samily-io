@@ -327,7 +327,17 @@ p { margin: 0 0 1em; }
   margin: 0 0 10px;
 }
 .footer-brand { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; margin: 0 0 4px; }
-.footer-address { margin-top: 12px; }
+.footer-address { margin-top: 10px; line-height: 1.5; }
+.addr-label {
+  display: inline-block;
+  width: 64px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-right: 4px;
+}
 .footer-copyright {
   border-top: 1px solid var(--border);
   padding-top: 20px;
